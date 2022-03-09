@@ -1,0 +1,96 @@
+,Error in minimum,Error in function (Thevenot's code),Comment (difference between code and website),Status ,Source
+Ackley Function,,,,,1
+Ackley N. 2 Function,,,,,2
+Ackley N. 3 Function,"Minimum is at (0,-0.4)",,,not yet fixed,2
+Ackley N. 4 Function,location and minimum value are wrong,,,not yet fixed,2
+Adjiman Function,"Minimum is at (2,0.10578)",,,fixed,2
+Alpine N. 1 Function,,,,,2
+Alpine N. 2 Function,,,,,2
+Bartels Conn Function,,,,,2
+Beale Function,,,,,1
+Bird Function,,,,,2
+Bohachevsky N. 1 Function,,,,,1
+Bohachevsky N. 2 Function,,,,,1
+Bohachevsky N. 3 Function,,,,,1
+Booth Function,,,,,1
+Branin Function,,,,,1
+Brent Function,,,,,2
+Brown Function,,,,,2
+Bukin N. 6 Function,,,,,1
+Colville Function,,,,,1
+Cross-in-Tray Function,,,,,2
+De Jong N. 5 Function,"minimum is at (-32,-32)",,,fixed,1
+Deckkers-Aarts Function,,,,,2
+Dixon-Price Function,,,,,1
+Drop-Wave Function,,,,,1
+Easom Function,,,,,1
+Egg Crate Function,"minimum is at (0,0)",,,fixed,2
+Eggholder function,"minimum is -959,64",,"secondary source has the minimum at 959,64, the function evaluates at -959,64 though",fixed,2
+Exponential Function,,,,,2
+Forrester Function,,,,,1
+Goldstein-Price Function,,,,,1
+Gramacy & Lee Function,,,,,1
+Griewank Function,,,,,1
+Happy Cat Function,,,,,4
+Himmelblau Function,,,,,2
+Holder-Table Function,,,,,1
+Keane Function,minimum is -0.673667,,,fixed,2
+Langermann Function,,,"No Minimum in Thevenot's version, inverted the function so that it has a global minimum",fixed,5
+Leon Function,,,,,2
+Levy N. 13 Function,,,,,1
+Matyas Function,,,,,1
+McCormick Function,,,,,1
+Michalewicz Function,,,,,1
+Periodic Function,,,,,2
+"Perm Function 0, d, β",,"
++1 was missing at the second j ","Bracket around (j+1) and b was missing; 
+The second j was not in the denominator",Errors are fixed in the Code,1
+"Perm Function d, β",,,,,1
+Powell Function,,,,,1
+Qing Function,,,,,2
+Quartic Function,,,,,2
+Rastrigin Function,,,The 10d in the beginning of the function is missing on the website.,,1
+Ridge Function,,,,,
+Rosenbrock Function,,,,,more_wild
+Rotated Hyper-Ellipsoid Function,,,,,1
+Salomon Function,,,,,2
+Schaffer N. 1 Function,,Wrong Name,,Name is adjusted,2
+Schaffer N. 2 Function,,"Wrong Name;
+There is a minus in the nominator between x_1 and x_2",,"Name is adjusted, but function has not been adjusted. (Due to uncertainty on our side because of the number of mistakes in this class of functions)",1
+Schaffer N. 3 Function,,"Wrong Name;
+There is a minus in the nominator between x_1 and x_2",,"Name is adjusted, but function has not been adjusted. (Due to uncertainty on our side because of the number of mistakes in this class of functions)",3
+Schaffer N. 4 Function,,"Wrong Name;
+There is a minus in the nominator between x_1 and x_2","On the Website, this function is identical to the one above, but the code is different.","Name is adjusted, but function has not been adjusted. (Due to uncertainty on our side because of the number of mistakes in this class of functions)",1
+Schwefel Function,,,,,2
+Schwefel 2.20 Function,,"According to the source, there should be a 
+minus infront of the function.",,Function has not been adjusted.,2
+Schwefel 2.21 Function,,,,,2
+Schwefel 2.22 Function,,,,,2
+Schwefel 2.23 Function,,,,,2
+Shekel Function,Minimum is at -10.5364 and not -10.1532.,,"Bracket around the inner sum was missing;
+The index j was massing for C","Errors are fixed in the Code;
+Minimum is adjusted",1
+Shubert Function,,i infront of cos is supposed to be a j.,j infront of cos is missing on the website.,Fixed for the case of two dimensions and range adjusted to 6.,1
+Shubert N. 3 Function,,,,,2
+Shubert N. 4 Function,,,,,2
+Sphere Function,,,,,1
+Styblinski-Tank Function,,,,,1
+Sum Squares Function,,,,,1
+Three-Hump Camel Function,,,,,1
+Thevenot Function,,,,,authors own function
+Trid Function,,A bracket was missing.,,Error is fixed.,1
+Wolfe Function,,,,,2
+Xin-She Yang Function,,,,,2
+Xin-She Yang N. 2 Function,,,,,2
+Xin-She Yang N. 3 Function,,,,,2
+Xin-She Yang N. 4 Function,,Bracket was wrong around the sum and missing around the first term.,,Error is fixed.,2
+Zakharov Function,Minimum is at 0 and not -1.,,,Minimum is adjusted.,1
+,,,,,
+,,,,,
+,,,,,
+Sources:,,,,,
+1,https://www.sfu.ca/~ssurjano/optimization.html,,,,
+2,https://arxiv.org/pdf/1308.4008.pdf,,,,
+3,https://al-roomi.org/benchmarks/unconstrained/2-dimensions/98-modified-schaffer-s-function-no-3,,,,
+4,https://www.researchgate.net/publication/234024034_HappyCat_-_A_Simple_Function_Class_Where_Well-Known_Direct_Search_Algorithms_Do_Fail,,,,
+5,http://infinity77.net/global_optimization/test_functions_nd_L.html,,,,

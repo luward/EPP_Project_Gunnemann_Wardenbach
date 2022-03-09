@@ -1,0 +1,6 @@
+# Benchmark log directories
+benchmark_logs_small/
+benchmark_logs_medium/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
